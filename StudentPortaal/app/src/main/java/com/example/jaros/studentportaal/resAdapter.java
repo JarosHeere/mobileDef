@@ -52,10 +52,6 @@ public class resAdapter extends RecyclerView.Adapter<resAdapter.portalsViewHolde
     }
 
 
-
-
-
-
     @Override
     public int getItemCount() {
         return listNameObject.size();
