@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GeoGuess">
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainScreen"
+    tools:showIn="@layout/activity_main_screen">
+
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/recyclerView"
-
+        android:id="@+id/portalsRecyc"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="match_parent"
         app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
