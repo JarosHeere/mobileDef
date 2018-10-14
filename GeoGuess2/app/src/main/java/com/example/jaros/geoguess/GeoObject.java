@@ -30,14 +30,14 @@ public class GeoObject {
     }
 
     public static final String[] PRE_DEFINED_GEO_OBJECT_NAMES = {
-            "yes-d",
-            "no-ca",
-            "no-b",
-            "yes-k",
-            "no-co",
-            "yes-p",
-            "yes-m",
-            "no-t"
+            "yes",
+            "no",
+            "no",
+            "yes",
+            "no",
+            "yes",
+            "yes",
+            "no"
     };
     public static final int[] PRE_DEFINED_GEO_OBJECT_IMAGE_IDS = {
             R.drawable.img1_yes_denmark,

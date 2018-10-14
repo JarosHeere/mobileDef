@@ -22,6 +22,8 @@ public class GeoObjectAdapter extends RecyclerView.Adapter<GeoObjectViewHolder>{
 
 
 
+
+
     @NonNull
     @Override
     public GeoObjectViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -45,4 +47,5 @@ public class GeoObjectAdapter extends RecyclerView.Adapter<GeoObjectViewHolder>{
     public int getItemCount() {
         return listGeoObject.size();
     }
-}
+
+ }
